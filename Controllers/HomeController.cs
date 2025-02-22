@@ -23,6 +23,6 @@ public class HomeController : Controller
         
         public async Task<IActionResult> Test()
         {
-            return Ok("Test Done");
+            return Ok("Test Done v1");
         }
 }
