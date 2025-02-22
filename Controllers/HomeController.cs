@@ -20,4 +20,9 @@ public class HomeController : Controller
             var employees = await _context.Employees.ToListAsync();
             return Ok(employees);
         }
+        
+        public async Task<IActionResult> Test()
+        {
+            return Ok("Test Done");
+        }
 }
